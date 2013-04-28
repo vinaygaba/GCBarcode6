@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="@drawable/back2"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_layout" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dip"
+            android:text="Scan Result"
+            android:textColor="#fff"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/scans"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/WPAdmin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="WPAdmin" />
+
+    <Button
+        android:id="@+id/SMS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS" />
+
+    <Button
+        android:id="@+id/Phonecall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Call" />
+
+    <Button
+        android:id="@+id/Openbrowser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Browser" />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan History" />
+
+</LinearLayout>

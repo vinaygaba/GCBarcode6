@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back3" >
+
+    <!-- News Feed Button -->
+
+    <Button
+        android:id="@+id/btn_history"
+        style="@style/DashboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginRight="20dp"
+        android:drawableTop="@drawable/btn_history"
+         />
+
+    <Button
+        android:id="@+id/btn_friends"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_history"
+        android:layout_centerHorizontal="true"
+         />
+
+    <Button
+        android:id="@+id/btn_agenda"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_agenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_friends"
+        android:layout_alignBottom="@+id/btn_friends"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp"
+        />
+
+</RelativeLayout>
